@@ -112,6 +112,10 @@ footer li {
         text-align: center;
     }
 
+    .hamIcon{
+        display: inline;
+    }
+
     header li{
         display: none;
     }
@@ -138,7 +142,7 @@ footer li {
     }
 }
 
-@media(min-width: 768px) and (max-width:1024px){
+@media(min-width: 501px) and (max-width:1024px){
     header{
         padding-top: 30px;
         min-height: 60px;
@@ -150,6 +154,14 @@ footer li {
         display: none;
     }
 
+    .hamIcon{
+        display: inline;
+    }
+
+    .mianMenu.toggleCls{
+        display: block;
+    }
+
     #showcase h1 {
         margin-top: 30px;
         font-size: 20px;
@@ -158,7 +170,7 @@ footer li {
     }
     
     #showcase p {
-        font-size: 10px;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -171,3 +183,8 @@ footer li {
     }
 }
 
+@media(min-width: 1025px){
+    .hamIcon{
+        display: none;
+    }
+}
