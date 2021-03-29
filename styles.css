@@ -84,7 +84,21 @@ img {
 }
 
 /* Contact Form */
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px;
+}
 
+.wrapper h2{
+    text-align: center;
+    text-transform: uppercase;
+}
     
 
 /* Footer */
