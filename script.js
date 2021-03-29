@@ -1,8 +1,4 @@
-function toggleMenu() {
+function toggleClass() {
     let getMenu = document.querySelector(".mainMenu");
-    getMenu.classList.toggle("hamburger");
+    getMenu.classList.toggle("toggleClass");
     }
-
-    let getHamburger = document.querySelector("#toggle-bar");
-
-    getHamburger.addEventListener("click", toggleMenu); 
