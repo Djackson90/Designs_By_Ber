@@ -2,10 +2,10 @@
 function toggleClass() {
     let getMenu = document.querySelector(".mainMenu");
     getMenu.classList.toggle("toggleClass");
-    }
+}
 
 /* Contact Fourm */
-function validation(){
+function validation() {
     var name = document.getElementById("name").value;
     var subject = document.getElementById("subject").value;
     var phone = document.getElementById("phone").value;
@@ -16,34 +16,37 @@ function validation(){
 
     error_message.style.padding = "10px"
 
-    if(name.length <5){
-    text = "Please Enter Valid Name";
-    error_message.innerHTML = text;
-    return false;
+    if (name.length < 5) {
+        text = "Please Enter Valid Name";
+        error_message.innerHTML = text;
+        return false;
     }
 
-    if(subject.length <5){
+    if (subject.length < 5) {
         text = "Please Enter A Subject";
         error_message.innerHTML = text;
         return false;
     }
 
-    if(isNaN(phone) || phone.length != 10){
+    if (isNaN(phone) || phone.length != 10) {
         text = "Please Enter Valid Phone Number";
         error_message.innerHTML = text;
         return false;
     }
 
-    if(email.indexOf("@") == -1 || email.length < 6){
+    if (email.indexOf("@") == -1 || email.length < 6) {
         text = "Please Enter Valid Email";
         error_message.innerHTML = text;
         return false;
     }
 
-    if(message.length <= 140){
+    if (message.length <= 140) {
         text = "Please Enter A Discription"
+        error_message.innerHTML = text;
+        return false;
     }
-    
+
     alert("Form Submitted Successfully!")
     return true;
 }
+

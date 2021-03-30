@@ -63,10 +63,11 @@ header a:hover {
 
 /* Showcase */
 #showcase {
-    min-height: 400px;
+    min-height: 800px;
     background-color: #2f4f4f;
     color:#ffffff;
     text-align: center;
+
 }
 
 #showcase h1 {
@@ -104,10 +105,8 @@ img {
 }
 /* Contact Form */
 .wrapper{
-    position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 50%;
     max-width: 350px;
     width: 100%;
     background: #ffffff;
@@ -173,9 +172,9 @@ footer {
     text-decoration: none;
 }
 
-footer li {
+footer li{
     display: inline;
-    padding: 0px 20px 0 20px;
+    padding: 0px 10px 0 10px;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
@@ -223,7 +222,7 @@ footer li {
     }
     
     .wrapper{
-        max-width: 200px;
+        max-width: 300px;
         width: 50%;
         padding: 15px;
         border-radius: 5px;
