@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Designs By Ber-Contact</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -27,15 +28,13 @@
                 </ul>
             </nav>
 
-        <script src="script.js"></script>
-
         </header>
 
     <div class="wrapper">
         <h2>Contact Me</h2>
         <div id="error_message"></div>
 
-        <form id="myform">
+        <form id="myform" onsubmit="return validation()">
             <div class="input_field">
                 <input type="text" placeholder="Name" id="name">
             </div>
