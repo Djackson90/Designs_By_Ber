@@ -83,6 +83,25 @@ img {
     width: 40%; 
 }
 
+/* Gallery */
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 170px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.gallery h3{
+    font-size: 30px;
+}
 /* Contact Form */
 .wrapper{
     position: absolute;
@@ -101,6 +120,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .wrapper .input_field{
@@ -246,7 +266,25 @@ footer li {
         transition: all 0.5s ease;
     }
 
-    footer {
+    .gallery{
+        margin: 10px 30px;
+    }
+    
+    .gallery img{
+        transition: 1s;
+        padding: 1px;
+        width: 100px;
+    }
+    
+    .gallery img:hover{
+        transform: scale(1.1);
+    }
+    
+    .gallery h3{
+        font-size: 15px;
+    }
+
+    footer{
         font-size: 8px;
         white-space: nowrap;
     }
@@ -337,8 +375,27 @@ footer li {
         transition: all 0.5s ease;
     }
 
+    .gallery{
+        margin: 10px 30px;
+    }
+    
+    .gallery img{
+        transition: 1s;
+        padding: 2px;
+        width: 150px;
+    }
+    
+    .gallery img:hover{
+        transform: scale(1.1);
+    }
+    
+    .gallery h3{
+        font-size: 20px;
+    }
+
     footer {
         font-size: 20px;
+        white-space: nowrap;
     }
 }
 
