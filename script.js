@@ -46,7 +46,7 @@ function validation() {
         return false;
     }
 
-    alert("Form Submitted Successfully!")
+    alert(name + " Forum Submitted Successfully!")
     return true;
 }
 

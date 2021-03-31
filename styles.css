@@ -275,7 +275,6 @@ footer li{
     .wrapper #error_message{
         margin-bottom: 10px;
         font-size: 8px;
-        transition: all 0.5s ease;
     }
 
     .gallery{
@@ -283,13 +282,8 @@ footer li{
     }
     
     .gallery img{
-        transition: 1s;
         padding: 1px;
         width: 100px;
-    }
-    
-    .gallery img:hover{
-        transform: scale(1.1);
     }
     
     .gallery h3{
@@ -392,7 +386,6 @@ footer li{
     .wrapper #error_message{
         margin-bottom: 20px;
         font-size: 15px;
-        transition: all 0.5s ease;
     }
 
     .gallery{
@@ -403,10 +396,6 @@ footer li{
         transition: 1s;
         padding: 2px;
         width: 150px;
-    }
-    
-    .gallery img:hover{
-        transform: scale(1.1);
     }
     
     .gallery h3{
