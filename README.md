@@ -1,3 +1,5 @@
+My prject is in the master branch.
+
 My project is a store for my wife's art. The home page is an about me page. The Second page is a gallery to view her work and get a understanding of the type of work a person could comission her for. The third page is a conact a page to get a hold of her and request a custom piece of art.
 
 The first feature is a css feature. A hamburger menu that appears in two media queries for a phone screen and a smaller screen like a tablet or small notebook.
